@@ -4,7 +4,7 @@
 
 ### Exercice 1 : M11006-1.php
 
-// "Créer une boucle avec la méthode while, générant dans chaque affichage **"Ceci est la lettre "** suivi d'un contenu dynamique allant de la **lettre "a" à la lettre "g"**"
+Créer une boucle avec la méthode while, générant dans chaque affichage **"Ceci est la lettre "** suivi d'un contenu dynamique allant de la **lettre "a" à la lettre "g"**
 
 ##### Sortie attendue
 
@@ -21,8 +21,8 @@ En utilisant le tableau suivant :
 
 ```php
 $cars = [
-    "Audi"      => "R8",
-    "BMW"   => "M3",
+    "Audi" => "R8",
+    "BMW" => "M3",
     "Bugatti" => "Veyron",
     "Ferrari" => "F430",
     "Porsche" => "Cayman",
