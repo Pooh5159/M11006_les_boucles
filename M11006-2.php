@@ -1,8 +1,8 @@
 <?php
 
 $cars = [
-    "Audi"      => "R8",
-    "BMW"   => "M3",
+    "Audi" => "R8",
+    "BMW" => "M3",
     "Bugatti" => "Veyron",
     "Ferrari" => "F430",
     "Porsche" => "Cayman",
@@ -24,7 +24,24 @@ $cars = [
         <a href="/">Retour à l'index</a>
     </div>
     <ul>
-        <li></li>
+        <?php foreach ($cars as $brand => $model) { ?>
+            <li><?= "$brand $model" ?></li>
+        <?php } ?>
+        
+        <br>
+
+        <!-- OU -->
+        <?php foreach ($cars as $brand => $model) : ?>
+            <li><?= "$brand $model" ?></li>
+        <?php endforeach; ?>
+    
+        <br>
+
+        <!-- OU -->
+        <?php foreach ($cars as $brand => $model) {
+            echo "<li>$brand $model</li>";
+        } ?>
+        
     </ul>
 </body>
 
