@@ -65,7 +65,7 @@ $cars = [
     <?php foreach ($cars as $car) : ?>
         <div class="card">
             <div class="car">
-                <img src='<?= $car["img"] ?>' alt='<?= $car["img"] ?>'>
+                <img src='<?= $car["img"] ?>' alt='<?= $car["brand"] ?> - <?= $car["model"] ?>' title='<?= $car["brand"] ?> - <?= $car["model"] ?>'>
             </div>
             <div class="infos">
                 <h2><?= $car["brand"] ?> <?= $car["model"] ?></h2>
